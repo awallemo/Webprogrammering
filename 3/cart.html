@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=¨, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Index</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+</head>
+
+
+
+
+
+<body>
+    <header>
+        <h1 id = "logo">RapSocks</h1>
+        <nav> 
+            <ul>
+                <li><a href="index.html"><i class="fa fa-home"></i></a></li>
+                <li><a href = "product.html"><i class="fa fa-percent"></i></a></li>
+                <li><a href = "cart.html"><i class="fa fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <div style="width: 90%; margin: auto;" >
+            <div class="cart-container">
+                <h1 class="cartheader">
+                    Cart
+                </h1>
+                
+                <table class="cart-table">
+                    <tr>
+                        <th>Product</th>
+                        <th>Size</th>
+                        <th>Count</th>
+                        <th>Item Price</th>
+                        <th>Discount</th>
+                        <th>Price</th>
+                        <th>Cancel</th>
+                    </tr>
+                    <tr>
+                        <td>NAS</td>
+                        <td>s</td>
+                        <td>1</td>
+                        <td>25$</td>
+                        <td>30%</td>
+                        <td>25$</td>
+                        <td><button type = "button"> X </button></td>
+                    </tr>
+
+                    <tr>
+                        <td>PAC</td>
+                        <td>M</td>
+                        <td>2</td>
+                        <td>25$</td>
+                        <td></td>
+                        <td>50$</td>
+                        <td><button type = "button"> X </button></td>
+                    </tr>
+
+                    <tr>
+                        <td>Cam'ron</td>
+                        <td>XL</td>
+                        <td>1</td>
+                        <td>25$</td>
+                        <td></td>
+                        <td>50$</td>
+                        <td><button type = "button"> X </button></td>
+                    </tr>
+
+                    <tr>
+                        <td>Totals</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>125$</td>
+                        
+                    </tr>
+                    
+                </table>
+            </div> 
+            
+            <div class="checkout-container">
+                <h1 class="checkout-header">
+                    Checkout
+                </h1>
+                
+                <div class="fieldsetcontainer">
+                <fieldset class="billingaddress">
+                    <legend>Billing address</legend>
+                    <label>First name: <input type = "text" name="firstname" size="20">
+                    </label>
+                    <label>Last name: <input type = "text" name="lastname" size="20">
+                    </label>
+                    <label>Email: <input type = "text" name="email" size="20">
+                    </label>
+                </fieldset>
+                
+                <fieldset class="deliveryaddress">
+                    <legend>Delivery Address</legend>
+                    <label>Street: <input type = "text" name="street" size="20">
+                    </label>
+                    <label>City: <input type = "text" name="city" size="20">
+                    </label>
+                    <label>Postal code: <input type = "text" name="postalcode" size="20">
+                    </label>
+                </fieldset>
+
+                <fieldset class="submitorder">
+                    <legend>Submit order</legend>
+                    <input type="checkbox" name="submitorder"/> I agree to the general terms of service
+                    <button type = "button"> Submit </button> 
+                </fieldset>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer >
+        <p class="contact-info"> Contact | +4795300400 | awallemo_98@hotmail.com</p>
+    </footer>
+</body>
+</html>

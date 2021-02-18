@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+
+*{
+margin:0;
+}
+
+a{
+text-decoration: none;
+color: #929fa3;
+}
+a:visited{
+    color: #929fa3;
+}
+html{
+    min-height: 100%;
+}
+
+body{
+    color: #325d6d;
+}
+header{
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    background-color: #325d6d;
+    z-index: 1;
+}
+#logo{
+    height: 60px;
+    margin-left: 5%;
+    width: 165px;
+    z-index: 10;
+    background-color: #15A7D9;
+    color: #d5dadc;
+    font-weight: bold;
+    font-family: "Montserrat";
+}
+
+nav{
+    margin-right: 30px;
+    position: relative;
+    top: 0;
+    right: 0
+}
+nav > ul{
+    position: absolute;
+    right: 5%;
+    bottom: 25px;
+
+}
+nav > ul > li { 
+    display: inline;
+    font-size: 1.5em;
+    margin: 10px;    
+}
+nav > ul > li > a{
+    
+    color: #929fa3
+}
+nav > ul > li > a:checked{
+ color: #929fa3;
+}
+
+main{
+    display: flex;
+    padding-top: 100px;
+    width: 90%;
+    margin: auto;
+    max-width: 1400px;
+    flex-direction: row-reverse;
+    
+}
+
+main h1{
+
+}
+aside{
+    min-width: 300px;
+    background-color: #15A7D9;
+    border-left: 5px solid white;
+    border-right:5px solid white;
+    font-family: Raleway; 
+
+}
+
+aside h2{
+    font-family: Montserrat;
+}
+table{
+    width: 100%
+}
+td{
+    padding: 0.1em;  /* some extra spacing between cells */
+    border-bottom: 1px solid #cdcdcd;  /* horizontal dividers */
+}
+a:hover{
+text-decoration: none;
+}
+th {
+    text-align: left;  /* by default, heading cells are center-aligned */
+    height: 2em;  
+}
+
+.upperheader{
+    display: flex;
+}
+.upperheader img{
+    width: 100%;
+    border-bottom: 5px solid #929fa3;
+    border-top: 5px solid #929fa3;
+    filter: invert();
+}
+.subimages{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery{
+    height: 290px;
+    width: 100%;
+    border: 1px solid #929fa3;
+}
+
+.discount-batch{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.discount-batch i {
+    color: #325d6d;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+.discount-batch p{
+    position: absolute;
+    top: 20px;
+    right: 25px;
+}
+
+article{
+position: relative;
+margin: 2px;
+top: 0em;
+flex: 1 1 280px;
+}
+
+article {
+    font-family: Montserrat;
+    color: #929fa3;
+    font-size: 0.8em;
+    padding: 5px;
+
+}
+article p{
+    font-family: "Raleway";
+}
+article:hover{
+    background-color: #325d6d;
+}
+.price{
+    float: right;
+}
+
+
+footer{
+    position: absolute;
+    height: 120px;
+    width: 100%;
+    border-top: 5px solid #15A7D9;
+    background-color:#325d6d;
+    margin-top: 60px;
+    
+}
+
+.contact-info{
+color: #929fa3;
+font-family: "Raleway";
+z-index: 1;
+text-align: center;
+padding-top: 50px;
+}
+
+.product-container{
+    display: flex;
+    border: solid 1px #325d6d;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.product-img{
+    height: 290px;
+}
+.description{
+    font-family: Raleway;
+    color: #325d6d;
+    padding: 50px;
+    width: 300px;
+}
+
+.description p{
+    font-size: small;
+    padding-top: 10px;
+    padding-bottom: 40px ;
+}
+
+.formcontainer{
+    display: grid;
+    float: right;
+}
+.formcontainer label{
+    text-align: right;
+}
+.formcontainer select{
+    width: 50px
+}
+.priceinput{
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+
+.camprice{
+    float: right;
+}
+
+.product-header{
+    background-color: #929fa3;
+    color: #325d6d;
+    width: 99%;
+    font-family: "Montserrat";
+    font-size: 1.2em;
+    padding: 5px;
+    margin-top: 10px ;
+    margin-bottom: 10px ;
+}
+
+.product-info{
+    border: 1px solid #325d6d;
+    font-family: Raleway;
+    padding: 5px;
+}
+.cartheader{
+    background-color: #929fa3;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 1em;
+    padding: 5px;
+    
+}
+.cart-container{
+    font-family: "Montserrat";   
+}
+
+.cart-table{
+    border: 1px solid #325d6d;
+    margin-top: 10px;
+    border-collapse: collapse;
+    font-family: raleway;
+    
+
+}
+.cart-table th, td{
+    padding: 5px;
+}
+.cart-table td{
+    font-size: 0.8em;
+    border-top: 1px solid #325d6d;
+    font-family: "Raleway";
+}
+button{
+    background-color: #15A7D9;
+}
+
+.checkout-container{
+    margin-bottom: 135px;
+}
+
+.checkout-header{
+    background-color: #929fa3;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 1em;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fieldsetcontainer{
+    border: 1px solid #325d6d;
+    padding: 10px;
+    text-align: center;
+}
+.fieldsetcontainer legend{
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.fieldsetcontainer label{
+    width: 100px;
+    text-align: right;
+    margin: 80px;
+}
+
+
+fieldset{
+    font-family: raleway;
+    font-size: 0.8em;
+}
